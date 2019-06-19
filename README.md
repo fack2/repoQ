@@ -26,7 +26,7 @@ sec_3
 
 
 ## Team Member:
--sara
--naden
--someya
--rand
+-SARA
+-NADEEN
+-SOMEYA
+-RAND 
