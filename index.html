@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio Page </title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -15,21 +15,11 @@
     <nav class="navbar navbar-default navbar-fixed-top">
 
         <ul class="header navbar-center">
-            <li>
-                <a class="list-1" href="#home"> HOME </a>
-            </li>
-            <li>
-                <a class="list-2" href="#about"> ABOUT </a>
-            </li>
-
-            <li>
-                <a class="list-3" href="#cards"> TeamQ </a>
-            </li>
-
-            <a class="list-5" id="border" href="#contact"> CONTACT </a>
-            </li>
+            <li><a class="list-1" style="color:white" href="#home"> HOME </a></li>
+            <li><a class="list-2" style="color:white" href="#about"> ABOUT</a></li>
+            <li><a class="list-3" style="color:white" href="#cards"> TeamQ </a></li>
+            <li><a class="list-5" style="color:white" href="#contact"> CONTACT </a></li>
         </ul>
-
     </nav>
 
 
@@ -38,12 +28,8 @@
             <div class="content-inner">
                 <p class="name"> <strong>TeamQ</strong> </p>
                 <p class="description" id="fadeIn"> FULL STACK WEB DEVELOPER </p>
-                <div class="item" id="github">
-                    <a href="https://github.com/sara219"> <i class="fa fa-github" style="font-size:34px"></i> </a>
-                </div>
-                <div class="item" id="linkedin">
-                    <a href="https://www.linkedin.com/in/sarah-abu-2a8925173/"> <i class="fa fa-linkedin" style="font-size:34px"></i> </a>
-                </div>
+                <a href="https://github.com/sara219"> <i class="fa fa-github" aria-label="github" style="font-size:34px"></i> </a>
+                <a href="https://www.linkedin.com/in/sarah-abu-2a8925173/"> <i class="fa fa-linkedin" aria-label="linkedin" style="font-size:34px"></i> </a>
 
             </div>
         </div>
@@ -54,84 +40,83 @@
         <div class="about-container">
             <div class="row">
                 <div class="header-intro">
-                    <p class="intro-name"> HEY! WE`RE <strong> TeamQ </strong>. </p>
-                    <p class="intro-roles"> we are A <strong> FULL STACK WEB DEVELOPER </strong>. </p>
+                    <p class="intro-name" style="font-size: 25px"> HEY! WE`RE <strong> TeamQ </strong>. </p>
+                    <p class="intro-roles" style="font-size: 25px"> we are A <strong> FULL STACK WEB DEVELOPER </strong>. </p>
                     <div class="intro-line"> </div>
                     <br>
                     <br>
-                    <p class="intro" id="intro-about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    <p class="intro" id="intro-about" style="font-size: 20px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
                 </div>
             </div>
         </div>
     </section>
+
     <section id="cards">
-    <div class="row">
-      <div class="column">
-        <div class="card">
-          <img src="https://cdn0.iconfinder.com/data/icons/mobile-device/512/uppercase-latin-letter-round-n-keyboard-2-512.png" style="width:150px;height:auto;padding-top:10px">
-          <h1 class="h1">Nadeen Shaheen</h1>
-          <p class="title">Computer Engineer</p>
-          <p class="skills">Skills: <br> Programming<br>
-                                     Microsoft Office
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <img src="https://cdn0.iconfinder.com/data/icons/mobile-device/512/uppercase-latin-letter-round-n-keyboard-2-512.png" alt="N letter" style="width:150px;height:auto;padding-top:10px">
+                    <h1 class="h1">Nadeen Shaheen</h1>
+                    <p class="title">Computer Engineer</p>
+                    <p class="skills">Programming<br> Microsoft Office
                     </p>
-          <a href="https://nadeenshaheen.shahin@gmail.com"><i class="fa fa-envelope"></i></a>
-          <a href="https://github.com/Nadeen123"><i class="fa fa-github"></i></a>
-          <a href="https://www.facebook.com/nadeen.shahin"><i class="fa fa-facebook"></i></a>
+                    <a href="https://nadeenshaheen.shahin@gmail.com"><i class="fa fa-envelope" aria-label="email" ></i></a>
+                    <a href="https://github.com/Nadeen123"><i class="fa fa-github" aria-label="github" ></i></a>
+                    <a href="https://www.facebook.com/nadeen.shahin"><i class="fa fa-facebook" aria-label="facebook" ></i></a>
 
 
-        </div>
-      </div>
+                </div>
+            </div>
 
-      <div class="column">
-        <div class="card">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM7P6xlDaeZDpc9iCcHCXKpEhX6AWtfcBaBQNh3VczZuqQ8xM" style="width:150px;height:auto;padding-top:10px">
-          <h1 class="h1">Sara Abu Awwad</h1>
-          <p class="title">Computer Science</p>
-          <p class="skills">Skills: <br> Programming<br>
-                                     Microsoft Office
+            <div class="column">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM7P6xlDaeZDpc9iCcHCXKpEhX6AWtfcBaBQNh3VczZuqQ8xM" alt="S letter" style="width:150px;height:auto;padding-top:10px">
+                    <h1 class="h1">Sara Abu Awwad</h1>
+                    <p class="title">Computer Science</p>
+                    <p class="skills"></p>Programming<br> Microsoft Office
                     </p>
 
-          <a href="https://github.com/sara219"><i class="fa fa-envelope"></i></a>
-          <a href="https://github.com/sara219"><i class="fa fa-github"></i></a>
-          <a href="https://github.com/sara219"><i class="fa fa-facebook"></i></a>
+                    <a href="https://github.com/sara219"><i class="fa fa-envelope" aria-label="email" ></i></a>
+                    <a href="https://github.com/sara219"><i class="fa fa-github" aria-label="github" ></i></a>
+                    <a href="https://github.com/sara219"><i class="fa fa-facebook" aria-label="facebook" ></i></a>
 
-        </div>
-      </div>
+                </div>
+            </div>
 
-      <div class="column">
-        <div class="card">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1sPCCwCqwcZP6tWwkcnNc_yQR_OboUUIoj6GEZVap2yPbsTcBKQ" style="width:150px;height:auto;padding-top:10px">
-          <h1 class="h1">Someya altos</h1>
-          <p class="title">Computer Engineer</p>
-          <p class="skills">Skills: <br> Programming<br>
-                                     Microsoft Office
+            <div class="column">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1sPCCwCqwcZP6tWwkcnNc_yQR_OboUUIoj6GEZVap2yPbsTcBKQ" alt="S letter" style="width:150px;height:auto;padding-top:10px">
+                    <h1 class="h1">Someya altos</h1>
+                    <p class="title">Computer Engineer</p>
+                    <p class="skills">Programming<br> Microsoft Office
                     </p>
-          <a href="https://github.com/someyaaltous"><i class="fa fa-envelope"></i></a>
-          <a href="https://github.com/someyaaltous"><i class="fa fa-github"></i></a>
-          <a href="https://www.facebook.com/profile.php?id=100007163627253"><i class="fa fa-facebook"></i></a>
+                    <a href="https://github.com/someyaaltous"><i class="fa fa-envelope" aria-label="email"  ></i></a>
+                    <a href="https://github.com/someyaaltous"><i class="fa fa-github" aria-label="github" ></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100007163627253"><i class="fa fa-facebook" aria-label="facebook" ></i></a>
 
 
-        </div>
-      </div>
+                </div>
+            </div>
 
-      <div class="column">
-        <div class="card">
-          <img src="https://img12.androidappsapk.co/300/a/3/a/com.devacid.d.strup.r.full.png" style="width:150px;height:auto;padding-top:10px">
-          <h1 class="h1">Rand</h1>
-          <p class="title">Computer Engineer</p>
-          <p class="skills">Skills: <br> Programming<br>
-                                     Microsoft Office
+            <div class="column">
+                <div class="card">
+                    <img src="https://img12.androidappsapk.co/300/a/3/a/com.devacid.d.strup.r.full.png" alt="R letter" style="width:150px;height:auto;padding-top:10px">
+                    <h1 class="h1">Rand</h1>
+                    <p class="title">Computer Engineer</p>
+                    <p class="skills">Programming<br> Microsoft Office
                     </p>
-          <a href="https://github.com/RandInaim"><i class="fa fa-envelope"></i></a>
-          <a href="https://github.com/RandInaim"><i class="fa fa-github"></i></a>
-          <a href="https://github.com/RandInaim"><i class="fa fa-facebook"></i></a>
+                    <a href="https://github.com/RandInaim"><i class="fa fa-envelope" aria-label="email" ></i></a>
+                    <a href="https://github.com/RandInaim"><i class="fa fa-github" aria-label="github"></i></a>
+                    <a href="https://github.com/RandInaim"><i class="fa fa-facebook" aria-label="facebook"></i></a>
 
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-</section>
+    </section>
+
+
     <section id="contact">
         <div class="contact-container">
 
@@ -144,40 +129,34 @@
         <div class="row">
 
             <form id="contact_form" action="#">
-
-                <div class="row contact-row">
-                    <div class="name">
-                        <input name="name" id="name" type="text" placeholder="Name">
-                    </div>
-                    <div class="email">
-                        <input name="mail" id="mail" type="email" placeholder="Email">
-                    </div>
-                </div>
-
+                <label for="name">Name</label>
+                <input name="name" id="name" type="text" placeholder="Name">
+                <label for="mail">Email</label>
+                <input name="mail" id="mail" type="email" placeholder="Email">
+                <label for="subject">Subject</label>
                 <input name="subject" id="subject" type="text" placeholder="Subject">
+                <label for="comment">Message</label>
                 <textarea name="comment" id="comment" placeholder="Message"></textarea>
-                <input type="submit" class="btn-submit" value="Send Message" id="submit-message">
+                <input type="submit" value="Send" id="submit-message">
                 <div id="msg" class="message"></div>
             </form>
         </div>
 
+        </div>
+    </section>
+
+    <!--footer-->
+
+    <footer>
+        <div class="footer-container">
+            <div class="copyright text-center">
+                <p style="font-size: 10px"> ©2019 TEAMQ, ALL RIGHTS RESERVED
+                </p>
+            </div>
 
         </div>
-
         </div>
-
-        <!--footer-->
-
-        <footer>
-            <div class="footer-container">
-                <div class="copyright text-center">
-                    <p style="font-size: 10px"> ©2019 TEAMQ, ALL RIGHTS RESERVED
-                    </p>
-                </div>
-
-            </div>
-            </div>
-        </footer>
+    </footer>
 
 </body>
 
