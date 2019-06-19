@@ -26,4 +26,7 @@ sec_3
 
 
 ## Team Member:
--(Someya) [https://github.com/someyaaltous]
+-sara
+-naden
+-someya
+-rand
