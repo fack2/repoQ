@@ -1,179 +1,200 @@
-@media screen and (min-width: 600px) {
-  body {
+@media screen and (max-width: 600px) {
+    body {
+        font-family: "Roboto Slab", serif;
+        background-color: white;
+        margin: auto;
+        height: 100%;
+        width: 100%;
+        overflow-x: hidden;
+        align-items: center;
+    }
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        margin: auto;
+        background-color: white;
+        text-align: center;
+        border-radius: 40px;
+        padding-bottom: 15px;
+    }
+}
+
+body {
     font-family: "Roboto Slab", serif;
     background-color: white;
-    margin: 0%;
+    margin: auto;
     height: 100%;
     width: 100%;
     overflow-x: hidden;
-  }
-}
-ul {
-  list-style: none;
-  float: left;
-  overflow: hidden;
-  text-align: center;
-  width: 100%;
+    align-items: center;
 }
 
-a > img {
-  color: black;
-  height: auto;
-  width: 40%;
+ul {
+    list-style: none;
+    float: left;
+    font-size: 5px;
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+}
+
+a>img {
+    color: black;
+    height: auto;
+    width: 40%;
 }
 
 li {
-  color: transparent;
-  font-size: 14.5px;
-  top: 5%;
-  display: inline-block;
-  list-style: none;
-  padding: 3%;
+    top: 5%;
+    display: inline-block;
+    list-style: none;
+    padding: 3%;
+    color: white;
 }
 
-a:hover {
-  color: white;
-  cursor: pointer;
-}
 
 /* HOME */
 
 #home {
-  background: url("https://images.unsplash.com/photo-1496917756835-20cb06e75b4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
-  width: 100%;
+    background: url("https://images.unsplash.com/photo-1496917756835-20cb06e75b4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
 }
 
 .content-inner {
-  margin: 2%;
-  padding: 5%;
-  text-align: center;
-  padding-top: 5%;
-  overflow: hidden;
+    margin: 2%;
+    padding: 5%;
+    text-align: center;
+    padding-top: 5%;
+    overflow: hidden;
 }
 
 p {
-  display: block;
-  color: black;
-  text-align: center;
-  text-decoration: none;
-  letter-spacing: 1px;
-  font-weight: lighter;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: lighter;
 }
 
 .name {
-  font-size: 62px;
-  font-weight: 400;
-  padding-bottom: 0;
-  margin-bottom: 0;
-  animation: slideDown 2s;
+    font-size: 62px;
+    font-weight: 400;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    animation: slideDown 2s;
 }
 
 .description {
-  font-size: 16px;
-  font-weight: 100;
-  font-family: "Roboto Slab", serif;
+    font-size: 16px;
+    font-weight: 100;
+    font-family: "Roboto Slab", serif;
 }
 
 .fa {
-  color: black;
-  text-align: center;
+    color: black;
+    text-align: center;
 }
 
 .fa:hover {
-  color: white;
+    color: white;
 }
+
 
 /*about*/
 
 #about {
-  background-size: cover;
-  width: 100%;
+    background-size: cover;
+    width: 100%;
 }
 
 .about-container {
-  background-color: white;
-  padding-top: 125px;
-  padding-bottom: 75px;
+    background-color: white;
+    padding-top: 125px;
+    padding-bottom: 75px;
 }
 
 .title {
-  font-size: 50px;
-  font-weight: bolder;
-  padding-bottom: 0;
-  margin-bottom: 0;
-  color: black;
-  font-family: "Arsenal", sans-serif;
-  margin-top: 40px;
-  padding-top: 18px;
+    font-size: 50px;
+    font-weight: bolder;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    color: black;
+    font-family: "Arsenal", sans-serif;
+    margin-top: 40px;
+    padding-top: 18px;
 }
 
 .intro {
-  font-family: "Lora", serif;
-  font-size: 14px;
-  font-weight: lighter;
-  margin-top: 0;
-  margin-left: 15%;
-  margin-right: 15%;
-  margin-bottom: 0;
-  color: #222222;
-  line-height: 1.42857143;
+    font-family: "Lora", serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 0;
+    color: black;
 }
+
 
 /*card*/
 
 .column {
-  width: 22%;
-  float: left;
-  padding: 100px 10px;
+    display: flex;
+    width: 22%;
+    float: left;
 }
 
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .column {
-  width: 100%;
-  display: block;
-  margin-bottom: 20px;
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  margin: auto;
-  background-color: white;
-  text-align: center;
-  border-radius: 40px;
-  padding-bottom: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    background-color: white;
+    text-align: center;
+    border-radius: 40px;
+    padding-bottom: 15px;
 }
 
 .title {
-  color: gray;
-  font-size: 18px;
+    color: black;
+    font-size: 18px;
 }
+
 .h1 {
-  color: black;
-  font-size: 25px;
+    color: black;
+    font-size: 25px;
 }
+
 .skills {
-  color: #808080;
-  font-size: 15px;
+    color: black;
+    font-size: 15px;
 }
 
 a {
-  text-decoration: none;
-  font-size: 22px;
-  color: black;
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
 }
 
 a:hover,
 button:hover {
-  opacity: 0.6;
+    opacity: 0.6;
 }
 
 input[type="text"],
@@ -186,34 +207,33 @@ input[type="date"],
 input[type="search"],
 select,
 textarea {
-  position: relative;
-  height: 47px;
-  line-height: 47px;
-  border: 2px solid #e3e3e3;
-  background-color: transparent;
-  width: 100%;
-  margin-bottom: 16px;
-  padding: 0 16px;
-  color: #7a7a7a;
-  transition: border-color 0.3s ease-in-out;
-}
-
-textarea#comment {
-  height: 190px;
-  padding: 0 16px;
-  margin-bottom: 25px;
-}
-
-input[type="text"]:focus,
-input[type="email"]:focus,
-input[type="search"]:focus,
-textarea:focus {
-  border-color: #bfa67a;
-  outline: none;
-  box-shadow: none;
+    position: relative;
+    height: 47px;
+    line-height: 47px;
+    border: 2px solid #e3e3e3;
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 0 16px;
+    color: black;
 }
 
 textarea {
-  height: auto;
-  padding: 0px 16px;
+    height: auto;
+    padding: 0px 16px;
+}
+
+#contact {
+    padding-left: 30px;
+    padding-right: 50px;
+    border: 2px solid black;
+}
+
+#submit-message {
+    border-radius: 2rem;
+    background-color: white;
+    height: 40px;
+    width: 80px;
+    border: 1px solid black;
+    float: right;
+    margin-right: 100px;
 }
