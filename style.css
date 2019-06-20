@@ -1,239 +1,190 @@
-@media screen and (max-width: 600px) {
-    body {
-        font-family: "Roboto Slab", serif;
-        background-color: white;
-        margin: auto;
-        height: 100%;
-        width: 100%;
-        overflow-x: hidden;
-        align-items: center;
-    }
-    .card {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        max-width: 300px;
-        margin: auto;
-        background-color: white;
-        text-align: center;
-        border-radius: 40px;
-        padding-bottom: 15px;
-    }
+* {
+  box-sizing: border-box;
 }
-
 body {
-    font-family: "Roboto Slab", serif;
-    background-color: white;
-    margin: auto;
-    height: 100%;
-    width: 100%;
-    overflow-x: hidden;
-    align-items: center;
+  font-family: "Roboto Slab", serif;
+  background-color: white;
+  margin: auto;
+  height: 100%;
+  width: 100%;
 }
 
+/*list*/
 ul {
-    list-style: none;
-    float: left;
-    font-size: 5px;
-    text-align: center;
-    width: 100%;
-    color: white;
-    font-weight: bold;
+  float: left;
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
 }
 
-a>img {
-    color: black;
-    height: auto;
-    width: 40%;
-}
-
+/*home img*/
 li {
-    top: 5%;
-    display: inline-block;
-    list-style: none;
-    padding: 3%;
-    color: white;
+  top: 5%;
+  display: inline-block;
+  padding: 3%;
 }
 
-
+li a {
+  color: white;
+  font-size: 15px;
+}
 /* HOME */
 
 #home {
-    background: url("https://images.unsplash.com/photo-1496917756835-20cb06e75b4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
+  background: url("https://images.unsplash.com/photo-1496917756835-20cb06e75b4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
 }
 
 .content-inner {
-    margin: 2%;
-    padding: 5%;
-    text-align: center;
-    padding-top: 5%;
-    overflow: hidden;
+  margin: 2%;
+  padding: 5%;
+  text-align: center;
+  padding-top: 5%;
+  overflow: hidden;
 }
 
+/*about header */
 p {
-    display: block;
-    color: black;
-    text-align: center;
-    text-decoration: none;
-    letter-spacing: 1px;
-    font-weight: lighter;
+  display: block;
+  color: black;
+  text-align: center;
+  letter-spacing: 1px;
 }
 
 .name {
-    font-size: 62px;
-    font-weight: 400;
-    padding-bottom: 0;
-    margin-bottom: 0;
-    animation: slideDown 2s;
+  font-size: 62px;
+  font-weight: 400;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
+/*text on home img*/
 .description {
-    font-size: 16px;
-    font-weight: 100;
-    font-family: "Roboto Slab", serif;
+  font-size: 16px;
+  font-weight: 100;
+  font-family: "Roboto Slab", serif;
 }
 
+/*icon*/
 .fa {
-    color: black;
-    text-align: center;
+  color: black;
+  text-align: center;
 }
 
 .fa:hover {
-    color: white;
+  color: white;
 }
 
+/*about */
 
-/*about*/
-
-#about {
-    background-size: cover;
-    width: 100%;
+.intro_n {
+  font-size: 25px;
 }
 
 .about-container {
-    background-color: white;
-    padding-top: 125px;
-    padding-bottom: 75px;
+  background-color: white;
+  padding-top: 125px;
+  padding-bottom: 75px;
 }
 
-.title {
-    font-size: 50px;
-    font-weight: bolder;
-    padding-bottom: 0;
-    margin-bottom: 0;
-    color: black;
-    font-family: "Arsenal", sans-serif;
-    margin-top: 40px;
-    padding-top: 18px;
-}
-
+/*about us p*/
 .intro {
-    font-family: "Lora", serif;
-    font-size: 14px;
-    font-weight: bold;
-    margin-top: 0;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-bottom: 0;
-    color: black;
+  font-family: "Lora", serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 15%;
+  margin-right: 15%;
+  color: black;
 }
-
 
 /*card*/
-
 .column {
-    display: flex;
-    width: 22%;
-    float: left;
+  width: 25%;
+  float: left;
+  padding: 100px 10px;
 }
 
 .row:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
-.column {
+@media screen and (max-width: 600px) {
+  .column {
     width: 100%;
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+  }
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
-    margin: auto;
-    background-color: white;
-    text-align: center;
-    border-radius: 40px;
-    padding-bottom: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  background-color: white;
+  text-align: center;
+  border-radius: 40px;
+  padding-bottom: 15px;
 }
-
+/*names*/
 .title {
-    color: black;
-    font-size: 18px;
+  color: gray;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .h1 {
-    color: black;
-    font-size: 25px;
+  color: black;
+  font-size: 30px;
 }
 
 .skills {
-    color: black;
-    font-size: 15px;
+  color: black;
+  font-size: 20px;
 }
 
+/*card icon */
 a {
-    text-decoration: none;
-    font-size: 22px;
-    color: black;
+  font-size: 22px;
+  color: black;
 }
 
-a:hover,
-button:hover {
-    opacity: 0.6;
-}
-
+/*contact*/
 input[type="text"],
-input[type="password"],
 input[type="email"],
-input[type="url"],
-input[type="tel"],
-input[type="number"],
-input[type="date"],
-input[type="search"],
+input[type="submit"],
+input[type="Message"],
 select,
 textarea {
-    position: relative;
-    height: 47px;
-    line-height: 47px;
-    border: 2px solid #e3e3e3;
-    width: 100%;
-    margin-bottom: 16px;
-    padding: 0 16px;
-    color: black;
+  position: relative;
+  height: 47px;
+  line-height: 47px;
+  border: 2px solid #e3e3e3;
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 0 16px;
+  color: black;
 }
 
-textarea {
-    height: auto;
-    padding: 0px 16px;
+.contact {
+  text-align: center;
 }
 
 #contact {
-    padding-left: 30px;
-    padding-right: 50px;
-    border: 2px solid black;
+  padding-left: 30px;
+  padding-right: 50px;
+  border: 2px solid black;
 }
 
 #submit-message {
-    border-radius: 2rem;
-    background-color: white;
-    height: 40px;
-    width: 80px;
-    border: 1px solid black;
-    float: right;
-    margin-right: 100px;
+  border-radius: 2rem;
+  background-color: white;
+  height: 40px;
+  width: 80px;
+  border: 1px solid black;
+  float: right;
+  margin-right: 100px;
 }
