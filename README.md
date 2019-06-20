@@ -2,9 +2,12 @@
 our first project is one-page portfolio website
 
 ## Description 
-Why? its a website where a cleint can hire hire a team of developers or one of them.
+Why? its a website where a cleint can hire a team of developers or one of them.
 
 What? we built a four sections website including (home, about, teamQ, contact), each section has been built as the below pictures show 
+
+## Link website
+[repoQ](https://fack2.github.io/repoQ/)
 
 
 
